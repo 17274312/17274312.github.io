@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<link href="zy.css" rel="stylesheet" type="text/css" />
+<meta charset="utf-8"
+<title></title>
+<style>
+ body { background-color:#CCC;}
+ #container{ background-color:#FFF;
+    color:#000;
+    padding:15px;
+    margin: 100px auto 0px ;
+    width:600px;
+    text-align:center;
+    font-family:"微软雅黑 Light";
+    box-shadow:10px 10px 15px  black;
+    }
+ hr{
+    width:80%;
+    border:#C03 1px solid;
+    margin-bottom:15px;
+    }
+ input{
+     width:180px;
+     height:20px;
+     margin:5px;
+     font-size:16px;
+     font-family:"微软雅黑 Light";
+     }
+ button{
+     width:120px;
+     height:40px;
+     background-color:rgb(0, 183, 255);
+     border:0px;
+     color:#FFF;
+     margin:10px;
+     font-family:"微软雅黑 Light";
+     font-weight:bold;
+     }    
+ button:hover{
+     background-color:#d08000;
+     }     
+</style>
+</head>
+<body>
+<div id="container">
+<h1>用户注册页面</h1>
+<hr/>
+<form method="post" action="url" autocomplete="on">
+<label>用户名：
+<input type="text" placeholder="请输入用户名" name="username" required />
+</label>
+<br/>
+<label>密   码：
+<input type="password" placeholder="请输入密码" name="psw" required />
+</label>
+<br/>
+<label>确   认：
+<input type="password" placeholder="请再次输入密码" name="psw" required />
+</label>
+<br/>
+<label>姓   名：
+<input type="text" placeholder="请输入真实姓名" name="name" required />
+</label>
+<br/>
+<label>邮   箱：
+<input type="email" placeholder="请输入电子邮箱" name="email" required />
+</label>
+<br/>
+<button type="submit">
+  提交注册
+</button>
+<a id="forget_pwd" href="sx.html">已有账号</a>
+</form>
+</div>
+<script language="javascript">
+ 
+</script>
+</body>
+</html>
